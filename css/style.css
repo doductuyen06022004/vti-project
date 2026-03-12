@@ -1,0 +1,37 @@
+/* Reset CSS cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Các vùng làm việc (Tạm thời để màu cho dễ phân biệt) */
+#header {
+    background-color: #ffcccc; /* Đỏ nhạt */
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #ccffcc; /* Xanh lá nhạt */
+    padding: 15px;
+    text-align: center;
+}
+
+#main-content {
+    background-color: #ccccff; /* Xanh dương nhạt */
+    padding: 50px 20px;
+    min-height: 400px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #ffffcc; /* Vàng nhạt */
+    padding: 20px;
+    text-align: center;
+}
